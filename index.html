@@ -7,15 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <title>Cygnus's Portfolio</title>
+    <title>Cygnus</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 </head>
 
-<body style="
-background-color:#1f1b22;
-margin: 0px;
-">
+<body style="background-color:rgb(25, 21, 27); margin: 0px;">
 
     <style>
         .text {
@@ -25,16 +22,14 @@ margin: 0px;
             margin-top:0px;
             margin-bottom:10px;
             width:40%;
-            text-align:left;
-        }
+            text-align:left;}
         .title {
             color: white;
             font-family: Lexend;
             margin-top:40px;
             margin-bottom:10px;
             width:100%;
-            text-align:center;
-        }
+            text-align:center;}
         .bigtitle {
             color: white;
             font-family: Lexend;
@@ -42,8 +37,7 @@ margin: 0px;
             margin-bottom:20px;
             width:100%;
             text-align:center;
-            font-size:350%;
-        }
+            font-size:350%;}
         .caption {
             color: rgb(209, 209, 209);
             font-family: Lexend;
@@ -51,18 +45,23 @@ margin: 0px;
             margin-top:0px;
             margin-bottom:10px;
             width:40%;
-            text-align:center;
-        }
+            text-align:center;}
         .footer {
             color: rgb(82, 78, 85);
             font-family: Lexend;
             margin: auto;
-            margin-top:100px;
+            margin-top:10px;
             margin-bottom:10px;
             width:40%;
             text-align:center;
-            font-size:75%;
-        }
+            font-size:75%;}
+        .footer_button{
+            margin-inline:5px;
+            display:inline-block;
+            transform: translate(0px,0px);
+            transition: transform 0.2s ease;}
+        .footer_button:hover{
+            transform: translate(0px,-4px);}
         .image {
             display:block;
             margin-left:auto;
@@ -72,35 +71,91 @@ margin: 0px;
             border-width:7px;
             border-color:white;
             margin-top:50px;
-            margin-bottom:10px;
-        }
+            margin-bottom:10px;}
         hr.solid {
-        border-top: 1px solid rgb(209, 209, 209);
-        margin-top:45px;
-        }
+            border-top: 1px solid rgb(209, 209, 209);
+            margin-top:45px;}
+        hr.dark {
+            color: rgb(82, 78, 85);
+            margin-top:45px;
+            margin-left:20px;
+            margin-right:20px;}
         a:link, a:visited{
-            color: white
-        }
+            color: white}
         a:hover{
-            color: rgb(209, 209, 209);
-        }
+            color: rgb(209, 209, 209);}
         .banner{
             color: black;
             background-color: white;
             font-family: Lexend;
             text-align:center;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            background: linear-gradient(90deg, rgb(197, 211, 216) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgb(197, 211, 216) 100%)
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background: linear-gradient(90deg, rgb(197, 211, 216) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgb(197, 211, 216) 100%)}
+        .column{
+            float:left;
+            width:50%}
+        .row:after{
+            content:"";
+            display: table;
+            clear: both;}
+        .button {
+            color: rgb(255, 255, 255);
+            background-color: rgb(51, 44, 53);
+            font-family: Lexend;
+            margin: auto;
+            margin-top:10px;
+            margin-bottom:10px;
+            margin-left:10px;
+            margin-right:10px;
+            width:fit-content;
+            text-align:center;
+            border-color: white;
+            border-width: 5px;
+            border-style: solid;
+            padding:12px;
+            display:inline-block;
+            transition: transform 0.2s ease;}
+        .button:hover{
+            transform: scale(1.05,1.05)
         }
-
     </style>
 
     <div class="banner"><a href="index.html"><img src="images/index/logo.png"></a></div>
 
-    <div class="title"><a href="portfolio.html">Portfolio</a></div>
+    <div class="row">
+        <div class="column">
+            <h1 class="bigtitle">About Me</h1>
+            <div class="text" style="width:80%">Hi, I'm Cygnus, a Minecraft mapmaker and 3D model artist. I'm currently working at <a href="https://www.quillmark.net">Quillmark</a> as a programmer, artist, and builder.</div>
+            <div class="text" style="width:80%">Aside from Minecraft maps, data packs, and resource packs, I create videos, motion graphics, Geometry Dash levels, and other kinds of visuals.</div>
+        </div>
+        <div class="column">
+            <h1 class="bigtitle">Contact</h1>
+            <div class="text" style="width:80%">Interested in hiring me? Got feedback or a bug report for one of my projects? Contact me on Discord @cygd or email me at cygnus@quillmark.net.</div>
+        </div>
+    </div>
 
-    <div class="footer">Made by Cygnus</div>
+    <hr class="dark">
+
+    <div style="text-align:center; margin-top:50px;">
+    <a href="portfolio.html"><span class="button">3D Modeling Portfolio</span></a>
+    <a href="portfolio.html"><span class="button">Minecraft Skins</span></a>
+    <a href="portfolio.html"><span class="button">Maps & More</span></a>
+    </div>
+
+    <div class="footer" style="margin-top:90px">
+        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>
+        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGDGD"><img src="images/site_icons/yt.png"></a></span>
+        <span class="footer_button"><a href="https://www.twitter.com/CygnusGD"><img src="images/site_icons/twitter.png"></a></span>
+        <span class="footer_button"><a href="https://ko-fi.com/cygnusgd"><img src="images/site_icons/kofi.png"></a></span>
+        <span class="footer_button"><a href="https://www.planetminecraft.com/member/cygnusgd/"><img src="images/site_icons/pmc.png"></a></span>
+        <span class="footer_button"><a href="https://modrinth.com/user/Cygnus"><img src="images/site_icons/modrinth.png"></a></span>
+        <span class="footer_button"><a href="https://bsky.app/profile/cygd.bsky.social"><img src="images/site_icons/bsky.png"></a></span>
+    </div>
+
+
+
+    <div class="footer" style="margin-top:130px">Copyright © 2024 Cygnus</div>
 
 </body>
 

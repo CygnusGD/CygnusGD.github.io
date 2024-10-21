@@ -1,0 +1,20 @@
+index:
+    external links (footer):
+        yt
+        yt alt
+        twitter
+        ko-fi
+        pmc
+        modrinth
+        bluesky
+    quillmark links:
+        yt
+        discord
+        pmc
+    internal links:
+        3d modeling portfolio
+        skins
+        projects:
+            personal
+            quillmark
+            other
