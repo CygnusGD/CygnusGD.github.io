@@ -127,3 +127,13 @@ a:hover{
     padding-right:5%;
     margin:15px;
     display:table-cell;}
+.project_container{
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.6) 100%);
+    border-radius: 20px;
+    width: 10%;
+    padding-top:1%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    margin:15px;
+    display:table-cell;}
