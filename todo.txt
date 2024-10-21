@@ -1,12 +1,5 @@
 index:
-    external links (footer):
-        yt
-        yt alt
-        twitter
-        ko-fi
-        pmc
-        modrinth
-        bluesky
+    make social media links have hover text
     quillmark links:
         yt
         discord
