@@ -6,7 +6,8 @@ index:
         pmc
     internal links:
         3d modeling portfolio
-        skins
+            looking for skins button
+            figure out categories
         projects:
             personal
             quillmark
