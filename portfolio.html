@@ -12,39 +12,90 @@
 
     <link rel="stylesheet" href="styles.css">
 
+<style>
+    .collapsible {
+        background-color:rgb(34, 29, 36);
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 50%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-family:Lexend;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:50px;
+        transition-duration: 0.2s;
+        border-radius:20px;
+    }
+    
+    .collapsible:hover {
+        background-color: rgb(52, 44, 53);
+    }
+    
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2212";
+    }
+    
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+    }
+    </style>
+
 </head>
 
 <body style="background-color:rgb(25, 21, 27); margin: 0px;">
 
-    <div class="banner"><a href="index.html"><img src="images/index/logo.png" class="banner_image"></a></div>
-    <h1 class="title"><a href="https://www.planetminecraft.com/project/frostbite-frenzy/">Frostbite Frenzy</a></h1>
-    <div class="text">Frozen Crag 2: Frostbite Frenzy is a map I worked on with the Quillmark team, released on Minecraft Realms and Planet Minecraft. My roles on the project were 3D modelling, programming, and building.</div>
+<div class="banner"><a href="index.html"><img src="images/index/logo.png" class="banner_image"></a></div>
 
-    <img src="images/portfolio/ff/frostbite frenzy props.png" class="image">
-    <div class="caption">Miscellaneous Construction Props</div>
+<h1 class="bigtitle" style="margin-bottom:45px;">3D Modeling Portfolio</h1>
 
-    <img src="images/portfolio/ff/frostbite frenzy menus.png" class="image">
-    <div class="caption">Map Configuration Menus</div>
+    <h1 class="collapsible">Frostbite Frenzy</h1>
+    <div class="content">
 
-    <img src="images/portfolio/ff/frostbite frenzy credit1.png" class="image">
-    <div class="caption">Lobby Player Models for Map Credits</div>
+        <div class="text"><a href="https://www.planetminecraft.com/project/frostbite-frenzy/"></a>Frozen Crag 2: Frostbite Frenzy</a> is a map I worked on with the Quillmark team, released on Minecraft Realms and Planet Minecraft. My roles on the project were 3D modeling, programming, and building.</div>
 
-    <img src="images/portfolio/ff/frostbite frenzy credit2.png" class="image">
-    <div class="caption">Another Credit Example</div>
+        <img src="images/portfolio/ff/frostbite frenzy props.png" class="image">
+        <div class="caption">Miscellaneous Construction Props</div>
 
-    <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy item box.mp4" type="video/mp4"></video> 
-    <div class="caption">Animated Item Box</div>
+        <img src="images/portfolio/ff/frostbite frenzy menus.png" class="image">
+        <div class="caption">Map Configuration Menus</div>
 
-    <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy mystery box.mp4" type="video/mp4"></video> 
-    <div class="caption">Mystery Box</div>
+        <img src="images/portfolio/ff/frostbite frenzy credit1.png" class="image">
+        <div class="caption">Lobby Player Models for Map Credits</div>
 
-    <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy phonograph.mp4" type="video/mp4"></video> 
-    <div class="caption">Music Selection Phonograph</div>
+        <img src="images/portfolio/ff/frostbite frenzy credit2.png" class="image">
+        <div class="caption">Another Credit Example</div>
+
+        <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy item box.mp4" type="video/mp4"></video> 
+        <div class="caption">Animated Item Box</div>
+
+        <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy mystery box.mp4" type="video/mp4"></video> 
+        <div class="caption">Mystery Box</div>
+
+        <video class="image" controls><source src="images/portfolio/ff/frostbite frenzy phonograph.mp4" type="video/mp4"></video> 
+        <div class="caption">Music Selection Phonograph</div>
+
+</div>
 
     <hr class="solid">
 
     <h1 class="title">TTIAGTTAAAASAHTCMSATGH:AAAA</h1>
-    <div class="text">This map, also known as That Time I Accidentally Got Transported to an Actual Abandoned Alien Ship and Had to Collect My Stolen Antiques to Get Home: An Astronomical Antiques Adventure, is a roguelike map I made in three days with two other members of Quillmark for the Realms 10 Year Anniversary Mapjam. It recieved Fourth place from the judges and Second place from the community vote. My roles on this map were 3D modelling and pixel art.</div>
+
+
+    <div class="text">This map, also known as That Time I Accidentally Got Transported to an Actual Abandoned Alien Ship and Had to Collect My Stolen Antiques to Get Home: An Astronomical Antiques Adventure, is a roguelike map I made in three days with two other members of Quillmark for the Realms 10 Year Anniversary Mapjam. It recieved Fourth place from the judges and Second place from the community vote. My roles on this map were 3D modeling and pixel art.</div>
 
     <img src="images/portfolio/aaaa/aaaa_attic.png" class="image">
     <div class="caption">Pre-Lobby Attic Area</div>
@@ -151,6 +202,25 @@
     <div class="caption">Low poly rendition of an NES Tetris S piece, modelled in Blockbench and rendered in Blender.</div>
 
     <div class="footer">Made by Cygnus</div>
+
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        } 
+        });
+    }
+</script>
 
 </body>
 
