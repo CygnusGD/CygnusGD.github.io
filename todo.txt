@@ -1,5 +1,4 @@
-index:
-    make social media links have hover text
+1.0 release:
     quillmark links:
         yt
         discord
@@ -8,7 +7,15 @@ index:
         3d modeling portfolio
             looking for skins button
             figure out categories
+                frostbite frenzy
+                aaaa
+                blockbenchtober
+                other
         projects:
-            personal
+
             quillmark
-            other
+            other (commissions and pr2)
+
+extra stuff:
+    make social media links have hover text
+    make skins downloadable and specify license
