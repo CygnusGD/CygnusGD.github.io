@@ -11,16 +11,17 @@
                     armor
                     mobs
                     props
-                    in-context images
                 blockbenchtober
                 other
-                    boat
+                    boat x
                     bed
-                    train
-                    hammers
-                    figura avatars
+                    train x
+                    hammers x
+                    figura avatars x + mae and bird
 
 
 extra stuff:
     make social media links have hover text
     make skins downloadable and specify license
+    fancy renders page
+        back to portfolio page
