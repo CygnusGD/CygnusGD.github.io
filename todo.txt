@@ -7,14 +7,14 @@
         3d modeling portfolio
             looking for skins button
             figure out categories
-                frostbite frenzy
                 aaaa
+                    antiques
+                    armor
+                    mobs
+                    props
+                    in-context images
                 blockbenchtober
                 other
-        projects:
-
-            quillmark
-            other (commissions and pr2)
 
 extra stuff:
     make social media links have hover text
