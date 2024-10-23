@@ -8,13 +8,18 @@
             looking for skins button
             figure out categories
                 aaaa
-                    antiques
                     armor
                     mobs
                     props
                     in-context images
                 blockbenchtober
                 other
+                    boat
+                    bed
+                    train
+                    hammers
+                    figura avatars
+
 
 extra stuff:
     make social media links have hover text
