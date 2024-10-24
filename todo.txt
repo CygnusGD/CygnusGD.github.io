@@ -5,7 +5,6 @@
         pmc
     internal links:
         3d modeling portfolio
-            looking for skins button
             figure out categories
                 aaaa
                     armor

@@ -15,8 +15,13 @@
 </head>
 
 <body style="background-color:rgb(25, 21, 27); margin: 0px;">
-
- <div class="banner"><a href="index.html"><img src="images/index/logo.png" class="banner_image"></a></div>
+    
+    <div class="banner" style="margin:-10">
+        <span style="position:relative;">
+            <img src="images/index/logo_background.png" style="position:absolute; top:-150px; left:0px; z-index:1;">
+            <a href="index.html"><img src="images/index/logo.png" class="banner_image" style="position:relative; z-index:2;"></a>
+        </span>
+    </div>
 
  <h1 class="bigtitle" style="margin-bottom:-10px;">Solo Projects</h1>
  
@@ -101,6 +106,30 @@
     <a href="https://www.planetminecraft.com/project/project-run-2-6442126/"><li class="text">Project Run 2</li></a>
     <a href="https://www.youtube.com/playlist?list=PLPNPRy2q4qTrAHmO0NX7QoX3WNaFGBrGI"><li class="text">Slogo & Jelly Commissions</li></a>
 </ul>>
+
+<button onclick="topFunction()" id="myBtn">Back to Top</button> 
+<script>
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  window.scrollTo({top: 0, behavior: 'smooth'});
+} 
+</script>
+
 
 <div class="footer" style="margin-top:90px">
     <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>

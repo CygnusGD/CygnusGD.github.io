@@ -87,7 +87,12 @@
 
 <body style="background-color:rgb(25, 21, 27); margin: 0px;">
 
-<div class="banner"><a href="index.html"><img src="images/index/logo.png" class="banner_image"></a></div>
+    <div class="banner" style="margin:-10">
+        <span style="position:relative;">
+            <img src="images/index/logo_background.png" style="position:absolute; top:-150px; left:0px; z-index:1;">
+            <a href="index.html"><img src="images/index/logo.png" class="banner_image" style="position:relative; z-index:2;"></a>
+        </span>
+    </div>
 
 <h1 class="bigtitle" style="margin-bottom:45px;">3D Modeling Portfolio</h1>
 
@@ -133,7 +138,7 @@
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/soda_2.png" class="model"></td>
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/soda_3.png" class="model"></td>
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/soda_4.png" class="model"></td>
-                <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/globe.png" class="model"></td>
+                <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/globe.png" class="record"></td>
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/hammer.png" class="model"></td>
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/camera.png" class="model"></td>
                 <td style="width:11%;"><img src="images/portfolio/aaaa/antiques/radio.png" class="model"></td>
@@ -220,21 +225,40 @@
 
     </div>
 
-    <div class="footer" style="margin-top:90px">
-        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>
-        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGDGD"><img src="images/site_icons/yt.png"></a></span>
-        <span class="footer_button"><a href="https://www.twitter.com/CygnusGD"><img src="images/site_icons/twitter.png"></a></span>
-        <span class="footer_button"><a href="https://ko-fi.com/cygnusgd"><img src="images/site_icons/kofi.png"></a></span>
-        <span class="footer_button"><a href="https://www.planetminecraft.com/member/cygnusgd/"><img src="images/site_icons/pmc.png"></a></span>
-        <span class="footer_button"><a href="https://modrinth.com/user/Cygnus"><img src="images/site_icons/modrinth.png"></a></span>
-        <span class="footer_button"><a href="https://bsky.app/profile/cygd.bsky.social"><img src="images/site_icons/bsky.png"></a></span>
-    </div>
+<button onclick="topFunction()" id="myBtn">Back to Top</button> 
+<script>
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-    <div class="footer" style="margin-top:130px">Copyright © 2024 Cygnus</div>
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  window.scrollTo({top: 0, behavior: 'smooth'});
+} 
+</script>
 
+<div class="footer" style="margin-top:90px">
+    <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>
+    <span class="footer_button"><a href="https://www.youtube.com/@CygnusGDGD"><img src="images/site_icons/yt.png"></a></span>
+    <span class="footer_button"><a href="https://www.twitter.com/CygnusGD"><img src="images/site_icons/twitter.png"></a></span>
+    <span class="footer_button"><a href="https://ko-fi.com/cygnusgd"><img src="images/site_icons/kofi.png"></a></span>
+    <span class="footer_button"><a href="https://www.planetminecraft.com/member/cygnusgd/"><img src="images/site_icons/pmc.png"></a></span>
+    <span class="footer_button"><a href="https://modrinth.com/user/Cygnus"><img src="images/site_icons/modrinth.png"></a></span>
+    <span class="footer_button"><a href="https://bsky.app/profile/cygd.bsky.social"><img src="images/site_icons/bsky.png"></a></span>
+</div>
 
+<div class="footer" style="margin-top:130px">Copyright © 2024 Cygnus</div>
 
 <script>
     var coll = document.getElementsByClassName("collapsible");
