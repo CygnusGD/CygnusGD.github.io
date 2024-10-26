@@ -1,0 +1,13 @@
+1.0 release:
+                blockbenchtober
+
+
+extra stuff:
+    make social media links have hover text
+    make skins downloadable and specify license
+    fancy renders page
+        back to portfolio page
+    quillmark links:
+        yt
+        discord
+        pmc
