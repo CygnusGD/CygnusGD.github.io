@@ -1,22 +1,5 @@
 1.0 release:
-    quillmark links:
-        yt
-        discord
-        pmc
-    internal links:
-        3d modeling portfolio
-            figure out categories
-                aaaa
-                    armor
-                    mobs
-                    props
                 blockbenchtober
-                other
-                    boat x
-                    bed
-                    train x
-                    hammers x
-                    figura avatars x + mae and bird
 
 
 extra stuff:
@@ -24,3 +7,7 @@ extra stuff:
     make skins downloadable and specify license
     fancy renders page
         back to portfolio page
+    quillmark links:
+        yt
+        discord
+        pmc

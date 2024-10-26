@@ -72,8 +72,8 @@ a:hover{
     background-color: white;
     font-family: Lexend;
     text-align:center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background: linear-gradient(90deg, rgb(197, 211, 216) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgb(197, 211, 216) 100%)}
 .banner_image{
     transition: 0.35s cubic-bezier(0.370, -0.600, 0.235, 1.650);}
