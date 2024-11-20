@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Cygnus</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body style="background-color:rgb(25, 21, 27); margin: 0px;">
+
+    <div class="banner" style="margin:-10">
+        <span style="position:relative; top:15px; left:5px;">
+            <img src="images/index/logo_background.png" style="position:absolute; top:-220px; left:-80px; z-index:1;">
+            <a href="index.html"><img src="images/index/logo.png" class="banner_image" style="position:relative; z-index:2;"></a>
+        </span>
+    </div>
+
+    <h1 class="bigtitle" style="margin-bottom:45px">3D Model Renders</h1>
+
+
+    <table style="width:90%; margin-left:auto; margin-right:auto;">
+        <tr>
+            <td><img src="images/renders/scout.png" class="image" style="width:90%;"></td>
+            <td><img src="images/renders/light.png" class="image" style="width:90%;"></td>
+        </tr>
+        <tr>
+            <td><img src="images/renders/dice.png" class="image" style="width:90%;"></td>
+            <td><img src="images/renders/magical.png" class="image" style="width:90%;"></td>
+        </tr>
+        <tr>
+            <td><img src="images/renders/tetris_l.png" class="image" style="width:90%;"></td>
+            <td><img src="images/renders/tetris_s.png" class="image" style="width:90%;"></td>
+        </tr>
+        <tr>
+            <td><video controls class="image" style="width:90%;"><source src="images/renders/garden.mp4"></video></td>
+            <td><video controls class="image" style="width:90%;"><source src="images/renders/rusty.mp4"></video></td>
+        </tr>
+    </table>
+
+<button onclick="topFunction()" id="myBtn">Back to Top</button> 
+<script>
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    window.scrollTo({top: 0, behavior: 'smooth'});
+} 
+</script>
+
+
+    <div class="footer" style="margin-top:90px">
+        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>
+        <span class="footer_button"><a href="https://www.youtube.com/@CygnusGDGD"><img src="images/site_icons/yt.png"></a></span>
+        <span class="footer_button"><a href="https://www.twitter.com/CygnusGD"><img src="images/site_icons/twitter.png"></a></span>
+        <span class="footer_button"><a href="https://ko-fi.com/cygnusgd"><img src="images/site_icons/kofi.png"></a></span>
+        <span class="footer_button"><a href="https://www.planetminecraft.com/member/cygnusgd/"><img src="images/site_icons/pmc.png"></a></span>
+        <span class="footer_button"><a href="https://modrinth.com/user/Cygnus"><img src="images/site_icons/modrinth.png"></a></span>
+        <span class="footer_button"><a href="https://bsky.app/profile/cygd.bsky.social"><img src="images/site_icons/bsky.png"></a></span>
+    </div>
+
+
+
+    <div class="footer" style="margin-top:130px">Copyright © 2024 Cygnus</div>
+
+</body>
+
+</html>
