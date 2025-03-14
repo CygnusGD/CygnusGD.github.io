@@ -55,6 +55,21 @@
         transition: transform 0.3s ease;}
     .model:hover{
         transform: scale(2.0,2.0);}
+    .ddmodel{ /* yes i know this is bad practice shut up*/
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:80%;
+        margin-top:10%;
+        margin-bottom:10%;
+        filter:drop-shadow(0px 0px 25px #e7e3e93e);
+        transition: transform 0.3s ease;
+        position:relative;
+        z-index: 1;}
+    .ddmodel:hover{
+        transform: scale(2.0,2.0);
+        position:relative;
+        z-index: 2 ;}
     .ring{
         display:block;
         margin-left:auto;
@@ -139,13 +154,89 @@
 
         <div class="text" style="margin-top:50px;">This map is currently under development with the Quillmark team. I made all the models for it and am handling everything to do with the resource pack.</div>
 
-        <table style="width:65%; margin-left:auto; margin-right:auto; margin-bottom:50px; margin-top:70px;">
+        <table style="width:65%; margin-left:auto; margin-right:auto; margin-bottom:30px; margin-top:70px;">
             <tr>
-                <td><img src="images/portfolio/bbt/1.png" class="model"></td>
-                <td><img src="images/portfolio/bbt/2.png" class="model"></td>
-                <td><img src="images/portfolio/bbt/3.png" class="model"></td>
-                <td><img src="images/portfolio/bbt/4.png" class="model"></td>
-                <td><img src="images/portfolio/bbt/5.png" class="model"></td>
+                <td><img src="images/portfolio/dd/sandstone_bricks.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_brick_stairs.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_brick_slab.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_pillar.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_pillar_alt.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_bricks_decay_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_bricks_decay_2.png" class="ddmodel"></td>
+            </tr>
+            <tr>
+                <td><img src="images/portfolio/dd/shale_bricks.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale_brick_stairs.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale_brick_slab.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale_bricks_alt.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale_bricks_decay_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/shale_bricks_decay_2.png" class="ddmodel"></td>
+            </tr>
+            <tr>
+                <td><img src="images/portfolio/dd/polished_shale.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/polished_shale_stairs.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/polished_shale_slab.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/smooth_shale.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/smooth_shale_stairs.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/smooth_shale_slab.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/dog_statue.png" class="ddmodel"></td>
+
+            </tr>
+        </table>
+        <table style="width:80%; margin-left:auto; margin-right:auto; margin-bottom:50px; margin-top:0px;">
+            <tr>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_2.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_3.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_4.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_5.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_6.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_7.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_8.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_sandstone_sus.png" class="ddmodel"></td>
+            </tr>
+            <tr>
+                <td><img src="images/portfolio/dd/chiseled_shale.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_2.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_3.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_4.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_5.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_6.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_7.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_8.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/ungilded_chiseled_shale_sus.png" class="ddmodel"></td>
+            </tr>
+            <tr>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_bricks.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_2.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_3.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_4.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_5.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_6.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_7.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_8.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/gilded_chiseled_shale_sus.png" class="ddmodel"></td>
+            </tr>
+        </table>
+        <table style="width:65%; margin-left:auto; margin-right:auto; margin-bottom:50px; margin-top:0px;">
+            <tr>
+                <td><img src="images/portfolio/dd/sandstone_path_1.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_path_2.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_path_3.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/sandstone_path_4.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/off_white_wool.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/off_white_wool_slab.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/polished_obsidian.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/smooth_obsidian.png" class="ddmodel"></td>
+            </tr>
+            <tr>
+                <td><img src="images/portfolio/dd/glow_mushroom_block.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/glow_mushroom_block.png" class="ddmodel"></td>
+                <td><img src="images/portfolio/dd/glow_mushroom.png" class="ddmodel" style="width:50%"></td>
             </tr>
         </table>
 
