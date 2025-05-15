@@ -162,3 +162,25 @@ a:hover{
     transition: 0.3s ease}
 #myBtn:hover {
     background-color: rgb(58, 51, 59);}
+.gay {
+    color: transparent;
+    font-family: Lexend;
+    margin-top:60px;
+    margin-bottom:20px;
+    width:100%;
+    text-align:center;
+    font-size:350%;
+    background: linear-gradient(to right,#f33f3f,#f1a733,#e8ee48,#4be24e,#4bf3e1,#505cf5,#c450f5,#f76cc8,#f33f3f);
+    background-clip:text;
+    background-size: 15%;
+    animation: gay_animation 50s linear infinite;
+}
+@keyframes gay_animation{
+    0%{
+        background-position: 0% 50%;
+        offset-path: calc();
+    }
+    100%{
+        background-position: 200% 50%;
+    }
+}
