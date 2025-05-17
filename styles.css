@@ -56,7 +56,7 @@
     margin-top:50px;
     margin-bottom:10px;}
 .yt {
-    display:block;
+    display:flex;
     margin-left:auto;
     margin-right:auto;
     border-style:solid;
