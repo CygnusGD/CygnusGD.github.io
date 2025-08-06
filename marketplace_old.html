@@ -15,38 +15,6 @@
 </head>
 
 <style>
-
-    .collapsible {
-        background-color:rgb(39, 34, 41);
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        width: 50%;
-        border: none;
-        text-align: center;
-        outline: none;
-        font-family:Lexend;
-        margin-left:auto;
-        margin-right:auto;
-        margin-bottom:0px;
-        transition-duration: 0.2s;
-        border-radius:20px;}
-    .collapsible:hover {
-        background-color: rgb(58, 51, 59);}
-    .collapsible:after {
-        content: '\002B';
-        color: white;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;} 
-    .active:after {
-        content: "\2212";}
-    .content {
-        padding: 0 18px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.4s ease-in-out;}
-
     .model{
         display:block;
         margin-left:auto;
@@ -73,31 +41,25 @@
         </span>
     </div>
 
-<img src="images/marketplace/marketplace_page.png" style="width:100%">
+<table style="width:80%; margin-left:auto; margin-right:auto; margin-bottom:50px; margin-top:70px;">
+    <tr>
+        <td><img src="images/marketplace/haiku.png" class="model" style="scale:0.65; margin-left:0px; margin-right:0px;"></td>
+        <td><img src="images/marketplace/penguin.png" class="model" style="scale:0.9; margin-left:-70px; margin-right:0px;"></td>
+        <td><img src="images/marketplace/wrench.png" class="model" style="margin-left:-30px; margin-right:0px;"></td>
+        <td><img src="images/marketplace/pride_flags.png" class="model" style="scale:1.25;"></td>
+    </tr>
+</table>
 
-<button onclick="topFunction()" id="myBtn">Back to Top</button> 
-<script>
-    // Get the button:
-let mybutton = document.getElementById("myBtn");
+<div class="text">test test test test test test test test test test test test test test test test test test test test</div>
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  window.scrollTo({top: 0, behavior: 'smooth'});
-} 
-</script>
-
+<table style="width:80%; margin-left:auto; margin-right:auto; margin-bottom:50px; margin-top:70px;"></table>
+    <tr>
+        <td><img src="images/marketplace/butterfly_wings.png" class="model" style="scale:1.25; margin-left:50px; margin-right:0px;"></td>
+        <td><img src="images/portfolio/bbt/2.png" class="model" style="margin-left:0px; margin-right:0px;"></td>
+        <td><img src="images/marketplace/wrench.png" class="model" style="margin-left:-30px; margin-right:0px;"></td>
+        <td><img src="images/portfolio/bbt/6.png" class="model"></td>
+    </tr>
+</table>
 
     <div class="footer" style="margin-top:90px">
         <span class="footer_button"><a href="https://www.youtube.com/@CygnusGD"><img src="images/site_icons/yt.png"></a></span>
@@ -109,24 +71,6 @@ function topFunction() {
     </div>
 
     <div class="footer" style="margin-top:130px">Copyright © 2025 Cygnus</div>
-
-
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        } 
-        });
-    }
-</script>
 
 </body>
 
