@@ -50,7 +50,7 @@ html { scrollbar-gutter: stable;}
 }
 
 .right_margin_spacer_low_poly_art {
-    height: 965px; /* :,) */
+    height: 1287px; /* :,) */
     min-height: calc(100dvh - 180px);
 }
 
@@ -113,6 +113,15 @@ html { scrollbar-gutter: stable;}
     min-height: 100svh;
     margin-left: auto;
     margin-right: auto;
+}
+
+.vent {
+    background-image: url('images/portfolio/low_poly_art/vent_cw.webp');
+    background-size: cover;
+}
+
+.vent:hover {
+    background-image: url('images/portfolio/low_poly_art/vent.webp');
 }
 
 /* SIDEBAR */
@@ -329,6 +338,7 @@ html { scrollbar-gutter: stable;}
 
 .wide_cell_16_9 {height: 242px;}
 .wide_cell_1_1 {height: 430px;}
+.wide_cell_3_2 {height: 287px;}
 
 .cell_1_1 {height: 275px;}
 .cell_2_3 {height: 412px;}
